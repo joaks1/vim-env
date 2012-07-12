@@ -59,4 +59,6 @@ set wildmode=longest,list
 " Set default tex format to latex
 let g:tex_flavor='latex'
 set grepprg=grep\ -nH\ $*
+let g:Tex_DefaultTargetFormat='pdf'
+let g:Tex_CompileRule_pdf='pdflatex -interaction=nonstopmode $*'
 
