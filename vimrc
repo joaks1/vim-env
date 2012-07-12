@@ -55,3 +55,8 @@ map <S-Down> <C-Y>
 
 " Auto-complete filenames to longest common string and list on second tab
 set wildmode=longest,list
+
+" Set default tex format to latex
+let g:tex_flavor='latex'
+set grepprg=grep\ -nH\ $*
+
