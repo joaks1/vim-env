@@ -60,6 +60,7 @@ set wildmode=longest,list
 let g:tex_flavor='latex'
 set grepprg=grep\ -nH\ $*
 let g:Tex_DefaultTargetFormat='pdf'
-let g:Tex_CompileRule_pdf='pdflatex -interaction=nonstopmode $*'
+let g:Tex_CompileRule_pdf='pdflatex -interaction=nonstopmode -synctex=1 $*'
 let g:Tex_MultipleCompileFormats='dvi,pdf'
+let g:Tex_ViewRule_pdf='Skim'
 
