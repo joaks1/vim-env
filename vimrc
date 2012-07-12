@@ -20,7 +20,13 @@ set go-=T
 set scrolloff=2
 
 " Shortcut to rapidly toggle `set list`
-nmap <leader>l :set list!<CR>
+noremap <Leader>i <E:setlocal list!<CR>
+
+" Map toggle of line numbers
+noremap <Leader>ln <Esc>:setlocal number!<CR>
+
+" Map toggle of spell check
+noremap <Leader>s <Esc>:setlocal spell!<CR>
 
 " Enable file type plugin detection
 filetype plugin on
@@ -63,4 +69,7 @@ let g:Tex_DefaultTargetFormat='pdf'
 let g:Tex_CompileRule_pdf='pdflatex -interaction=nonstopmode -synctex=1 $*'
 let g:Tex_MultipleCompileFormats='dvi,pdf'
 let g:Tex_ViewRule_pdf='Skim'
+
+" Set filetype to mail when extension is .mail
+autocmd BufRead,BufNewFile *.mail setfiletype mail
 
