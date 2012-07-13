@@ -44,8 +44,9 @@ set smartcase
 " NERDTree key map
 noremap <Leader>nt <Esc>:NERDTree<CR>
 
-" CtrlP key map to buffer mode
-noremap <C-b> <Esc>:CtrlPBuffer<CR>
+" CtrlP default to buffer search 
+let g:ctrlp_cmd='CtrlPBuffer'
+noremap <Leader>f <Esc>:CtrlP<CR>
 
 " Enable 'in-column' up and down motion in INSERT mode on wrapped lines
 imap <silent> <Up>   <C-o>gk
