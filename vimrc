@@ -3,9 +3,6 @@
 call pathogen#infect()
 syntax on
 
-" Set default color scheme
-colors sorcerer
-
 " Make window height VERY large so they always maximise on window switch
 set winheight=9999
 set winwidth=100
@@ -27,9 +24,6 @@ noremap <Leader>ln <Esc>:setlocal number!<CR>
 
 " Map toggle of spell check
 noremap <Leader>s <Esc>:setlocal spell!<CR>
-
-" Enable file type plugin detection
-filetype plugin on
 
 " Enable language-dependent indenting
 filetype plugin indent on
@@ -65,12 +59,12 @@ set wildmode=longest,list
 
 " Set default tex format to latex
 let g:tex_flavor='latex'
-set grepprg=grep\ -nH\ $*
-let g:Tex_DefaultTargetFormat='pdf'
-let g:Tex_CompileRule_pdf='pdflatex -interaction=nonstopmode -synctex=1 $*'
-let g:Tex_MultipleCompileFormats='dvi,pdf'
-let g:Tex_ViewRule_pdf='Skim'
+let g:LatexBox_latexmk_options="-pvc -pdf"
 
 " Set filetype to mail when extension is .mail
 autocmd BufRead,BufNewFile *.mail setfiletype mail
+
+" Add dictionaries and allow completion
+au FileType * exec("setlocal dictionary+=".$HOME."/.vim/dictionaries/".expand('<amatch>'))
+set complete+=k
 
