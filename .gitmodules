@@ -37,3 +37,6 @@
 [submodule "bundle/vim-r-plugin"]
 	path = bundle/vim-r-plugin
 	url = https://github.com/jcfaria/Vim-R-plugin.git
+[submodule "bundle/increment"]
+	path = bundle/increment
+	url = https://github.com/vim-scripts/increment.vim--Natter.git
