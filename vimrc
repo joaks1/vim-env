@@ -3,6 +3,13 @@
 call pathogen#infect()
 syntax on
 
+" tab settings
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+
 " Make window height VERY large so they always maximise on window switch
 set winheight=9999
 set winwidth=100
@@ -67,4 +74,7 @@ autocmd BufRead,BufNewFile *.mail setfiletype mail
 " Add dictionaries and allow completion
 au FileType * exec("setlocal dictionary+=".$HOME."/.vim/dictionaries/".expand('<amatch>'))
 set complete+=k
+
+" Turn off underscore to arrow mapping in vim-r-plugin
+let g:vimrplugin_underscore = 0
 
