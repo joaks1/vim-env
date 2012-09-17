@@ -43,7 +43,7 @@ set ignorecase
 set smartcase
 
 " NERDTree key map
-noremap <Leader>nt <Esc>:NERDTree<CR>
+noremap <Leader>nt <Esc>:NERDTreeToggle<CR>
 
 " CtrlP default to buffer search 
 let g:ctrlp_cmd='CtrlPBuffer'
