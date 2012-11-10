@@ -3,6 +3,9 @@
 call pathogen#infect()
 syntax on
 
+" Set default color scheme
+colors sorcerer
+
 " tab settings
 set tabstop=4
 set softtabstop=4
