@@ -1,39 +1,39 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
-	url = https://github.com/kien/ctrlp.vim.git
+	url = git://github.com/kien/ctrlp.vim.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
+	url = git://github.com/scrooloose/nerdtree.git
 [submodule "bundle/buffergator"]
 	path = bundle/buffergator
-	url = https://github.com/jeetsukumaran/vim-buffergator.git
+	url = git://github.com/jeetsukumaran/vim-buffergator.git
 [submodule "bundle/solarized"]
 	path = bundle/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/supertab"]
 	path = bundle/supertab
-	url = https://github.com/ervandew/supertab.git
+	url = git://github.com/ervandew/supertab.git
 [submodule "bundle/latex-box"]
 	path = bundle/latex-box
-	url = https://github.com/LaTeX-Box-Team/LaTeX-Box.git
+	url = git://github.com/LaTeX-Box-Team/LaTeX-Box.git
 [submodule "bundle/buffersaurus"]
 	path = bundle/buffersaurus
-	url = https://github.com/jeetsukumaran/vim-buffersaurus.git
+	url = git://github.com/jeetsukumaran/vim-buffersaurus.git
 [submodule "bundle/vim-commentary"]
 	path = bundle/vim-commentary
-	url = https://github.com/tpope/vim-commentary.git
+	url = git://github.com/tpope/vim-commentary.git
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
-	url = https://github.com/tpope/vim-surround.git
+	url = git://github.com/tpope/vim-surround.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
-	url = https://github.com/godlygeek/tabular.git
+	url = git://github.com/godlygeek/tabular.git
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
-	url = https://github.com/msanders/snipmate.vim.git
+	url = git://github.com/msanders/snipmate.vim.git
 [submodule "bundle/vim-r-plugin"]
 	path = bundle/vim-r-plugin
-	url = https://github.com/jcfaria/Vim-R-plugin.git
+	url = git://github.com/jcfaria/Vim-R-plugin.git
 [submodule "bundle/increment"]
 	path = bundle/increment
-	url = https://github.com/vim-scripts/increment.vim--Natter.git
+	url = git://github.com/vim-scripts/increment.vim--Natter.git
