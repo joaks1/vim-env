@@ -40,3 +40,6 @@
 [submodule "bundle/bubblegum"]
 	path = bundle/bubblegum
 	url = git://github.com/baskerville/bubblegum.git
+[submodule "bundle/xoria"]
+	path = bundle/xoria
+	url = git://github.com/vim-scripts/xoria256.vim.git
