@@ -37,3 +37,6 @@
 [submodule "bundle/increment"]
 	path = bundle/increment
 	url = git://github.com/vim-scripts/increment.vim--Natter.git
+[submodule "bundle/bubblegum"]
+	path = bundle/bubblegum
+	url = git://github.com/baskerville/bubblegum.git
