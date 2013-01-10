@@ -3,7 +3,12 @@
 call pathogen#infect()
 syntax on
 
+" Set window size
+set lines=9999
+set columns=140
+
 " Set default color scheme
+set t_Co=256
 colors sorcerer
 
 " tab settings
