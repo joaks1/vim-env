@@ -22,7 +22,7 @@ function!PreviewMarkdown()
     " **************************************************************
     " Configurable settings
 
-    let MARKDOWN_COMMAND = 'markdown'
+    let MARKDOWN_COMMAND = 'markdown_py'
 
     if has('win32') || has('win64')
         " note important extra pair of double-quotes
@@ -33,6 +33,7 @@ function!PreviewMarkdown()
             let BROWSER_COMMAND = 'open'
         else
             let BROWSER_COMMAND = 'xdg-open'
+        endif
     endif
 
     " End of configurable settings
