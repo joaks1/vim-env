@@ -79,6 +79,12 @@ let g:LatexBox_latexmk_options="-pvc -pdf"
 " Set filetype to mail when extension is .mail
 autocmd BufRead,BufNewFile *.mail setfiletype mail
 
+" Autocomplete from Python packages
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+
+" Autocomplete from natural language dictionary
+set dictionary+=/usr/share/dict/words
+
 " Add dictionaries and allow completion
 au FileType * exec("setlocal dictionary+=".$HOME."/.vim/dictionaries/".expand('<amatch>'))
 set complete+=k
