@@ -55,3 +55,6 @@
 [submodule "bundle/jedi-vim"]
 	path = bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "bundle/vim-mochalatte"]
+	path = bundle/vim-mochalatte
+	url = git://github.com/jeetsukumaran/vim-mochalatte
