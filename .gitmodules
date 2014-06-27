@@ -58,3 +58,6 @@
 [submodule "bundle/vim-mochalatte"]
 	path = bundle/vim-mochalatte
 	url = git://github.com/jeetsukumaran/vim-mochalatte
+[submodule "bundle/vim-filebeagle"]
+	path = bundle/vim-filebeagle
+	url = https://github.com/jeetsukumaran/vim-filebeagle.git
