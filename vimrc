@@ -90,5 +90,5 @@ au FileType * exec("setlocal dictionary+=".$HOME."/.vim/dictionaries/".expand('<
 set complete+=k
 
 " Turn off underscore to arrow mapping in vim-r-plugin
-let g:vimrplugin_underscore = 0
+let vimrplugin_assign = 0
 
