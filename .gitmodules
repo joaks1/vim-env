@@ -61,3 +61,6 @@
 [submodule "bundle/vim-filebeagle"]
 	path = bundle/vim-filebeagle
 	url = https://github.com/jeetsukumaran/vim-filebeagle.git
+[submodule "bundle/gitv"]
+	path = bundle/gitv
+	url = git@github.com:gregsexton/gitv.git
