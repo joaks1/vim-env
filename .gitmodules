@@ -67,3 +67,6 @@
 [submodule "bundle/goyo"]
 	path = bundle/goyo
 	url = https://github.com/junegunn/goyo.vim
+[submodule "bundle/vim-codeschool"]
+	path = bundle/vim-codeschool
+	url = git@github.com:akmassey/vim-codeschool.git
