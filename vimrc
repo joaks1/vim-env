@@ -9,7 +9,9 @@ syntax on
 
 " Set default color scheme
 set t_Co=256
-colors sorcerer
+" colorscheme sorcerer
+colorscheme lucius
+LuciusDark
 
 " tab settings
 set tabstop=4

@@ -5,5 +5,6 @@
 " set columns=140
 
 " Set default color scheme
-colors nefertiti
-
+" colorscheme nefertiti
+colorscheme lucius
+LuciusDark
