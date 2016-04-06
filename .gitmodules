@@ -72,4 +72,4 @@
 	url = git://github.com/akmassey/vim-codeschool.git
 [submodule "bundle/vim-lucius"]
 	path = bundle/vim-lucius
-	url = git@github.com:jonathanfilip/vim-lucius.git
+	url = git://github.com/jonathanfilip/vim-lucius.git
