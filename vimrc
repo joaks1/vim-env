@@ -9,9 +9,7 @@ syntax on
 
 " Set default color scheme
 set t_Co=256
-" colorscheme sorcerer
-colorscheme lucius
-LuciusDark
+colorscheme sorcerer
 
 " tab settings
 set tabstop=4
@@ -21,8 +19,8 @@ set expandtab
 set autoindent
 
 " Make window height VERY large so they always maximise on window switch
-set winheight=9999
-set winwidth=100
+" set winheight=9999
+" set winwidth=100
 
 " Turn ruler on
 set ruler
