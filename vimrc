@@ -92,3 +92,5 @@ set complete+=k
 " Turn off underscore to arrow mapping in vim-r-plugin
 let vimrplugin_assign = 0
 
+" Restrict YouCompleteMe to select languages
+let g:ycm_filetype_whitelist = { 'cpp': 1, 'c': 1, 'python': 1 }
