@@ -76,3 +76,6 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "bundle/YCM-Generator"]
+	path = bundle/YCM-Generator
+	url = https://github.com/rdnetto/YCM-Generator.git
