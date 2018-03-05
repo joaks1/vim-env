@@ -93,4 +93,4 @@ set complete+=k
 let vimrplugin_assign = 0
 
 " Restrict YouCompleteMe to select languages
-let g:ycm_filetype_whitelist = { 'cpp': 1, 'c': 1, 'python': 1 }
+let g:ycm_filetype_whitelist = { 'cpp': 1, 'c': 1 }
