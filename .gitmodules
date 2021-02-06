@@ -45,25 +45,25 @@
 	url = git://github.com/vim-scripts/xoria256.vim.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
-	url = https://github.com/tpope/vim-markdown.git
+	url = git://github.com/tpope/vim-markdown.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive.git
+	url = git://github.com/tpope/vim-fugitive.git
 [submodule "bundle/jedi-vim"]
 	path = bundle/jedi-vim
-	url = https://github.com/davidhalter/jedi-vim.git
+	url = git://github.com/davidhalter/jedi-vim.git
 [submodule "bundle/vim-mochalatte"]
 	path = bundle/vim-mochalatte
 	url = git://github.com/jeetsukumaran/vim-mochalatte
 [submodule "bundle/vim-filebeagle"]
 	path = bundle/vim-filebeagle
-	url = https://github.com/jeetsukumaran/vim-filebeagle.git
+	url = git://github.com/jeetsukumaran/vim-filebeagle.git
 [submodule "bundle/gitv"]
 	path = bundle/gitv
 	url = git://github.com/gregsexton/gitv.git
 [submodule "bundle/goyo"]
 	path = bundle/goyo
-	url = https://github.com/junegunn/goyo.vim
+	url = git://github.com/junegunn/goyo.vim
 [submodule "bundle/vim-codeschool"]
 	path = bundle/vim-codeschool
 	url = git://github.com/akmassey/vim-codeschool.git
@@ -72,7 +72,7 @@
 	url = git://github.com/jonathanfilip/vim-lucius.git
 [submodule "bundle/vim-fontsize"]
 	path = bundle/vim-fontsize
-	url = https://github.com/drmikehenry/vim-fontsize.git
+	url = git://github.com/drmikehenry/vim-fontsize.git
 [submodule "bundle/julia-vim"]
 	path = bundle/julia-vim
 	url = git://github.com/JuliaEditorSupport/julia-vim.git
