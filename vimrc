@@ -95,3 +95,6 @@ let vimrplugin_assign = 0
 " Restrict YouCompleteMe to select languages
 " let g:ycm_filetype_whitelist = { 'cpp': 1, 'c': 1 }
 let g:ycm_filetype_whitelist = {}
+
+" Write via super user
+command! -nargs=0 Sudow w !sudo tee % > /dev/null
