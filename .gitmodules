@@ -76,3 +76,6 @@
 [submodule "bundle/julia-vim"]
 	path = bundle/julia-vim
 	url = git://github.com/JuliaEditorSupport/julia-vim.git
+[submodule "bundle/vim-yaml"]
+	path = bundle/vim-yaml
+	url = https://github.com/stephpy/vim-yaml.git
