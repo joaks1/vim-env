@@ -1,78 +1,78 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
-	url = git://github.com/kien/ctrlp.vim.git
+	url = https://github.com/kien/ctrlp.vim.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/buffergator"]
 	path = bundle/buffergator
-	url = git://github.com/jeetsukumaran/vim-buffergator.git
+	url = https://github.com/jeetsukumaran/vim-buffergator.git
 [submodule "bundle/solarized"]
 	path = bundle/solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/supertab"]
 	path = bundle/supertab
-	url = git://github.com/ervandew/supertab.git
+	url = https://github.com/ervandew/supertab.git
 [submodule "bundle/latex-box"]
 	path = bundle/latex-box
-	url = git://github.com/LaTeX-Box-Team/LaTeX-Box.git
+	url = https://github.com/LaTeX-Box-Team/LaTeX-Box.git
 [submodule "bundle/buffersaurus"]
 	path = bundle/buffersaurus
-	url = git://github.com/jeetsukumaran/vim-buffersaurus.git
+	url = https://github.com/jeetsukumaran/vim-buffersaurus.git
 [submodule "bundle/vim-commentary"]
 	path = bundle/vim-commentary
-	url = git://github.com/tpope/vim-commentary.git
+	url = https://github.com/tpope/vim-commentary.git
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
-	url = git://github.com/godlygeek/tabular.git
+	url = https://github.com/godlygeek/tabular.git
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
-	url = git://github.com/msanders/snipmate.vim.git
+	url = https://github.com/msanders/snipmate.vim.git
 [submodule "bundle/vim-r-plugin"]
 	path = bundle/vim-r-plugin
-	url = git://github.com/jcfaria/Vim-R-plugin.git
+	url = https://github.com/jcfaria/Vim-R-plugin.git
 [submodule "bundle/increment"]
 	path = bundle/increment
-	url = git://github.com/vim-scripts/increment.vim--Natter.git
+	url = https://github.com/vim-scripts/increment.vim--Natter.git
 [submodule "bundle/bubblegum"]
 	path = bundle/bubblegum
-	url = git://github.com/baskerville/bubblegum.git
+	url = https://github.com/baskerville/bubblegum.git
 [submodule "bundle/xoria"]
 	path = bundle/xoria
-	url = git://github.com/vim-scripts/xoria256.vim.git
+	url = https://github.com/vim-scripts/xoria256.vim.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
-	url = git://github.com/tpope/vim-markdown.git
+	url = https://github.com/tpope/vim-markdown.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = git://github.com/tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/jedi-vim"]
 	path = bundle/jedi-vim
-	url = git://github.com/davidhalter/jedi-vim.git
+	url = https://github.com/davidhalter/jedi-vim.git
 [submodule "bundle/vim-mochalatte"]
 	path = bundle/vim-mochalatte
-	url = git://github.com/jeetsukumaran/vim-mochalatte
+	url = https://github.com/jeetsukumaran/vim-mochalatte
 [submodule "bundle/vim-filebeagle"]
 	path = bundle/vim-filebeagle
-	url = git://github.com/jeetsukumaran/vim-filebeagle.git
+	url = https://github.com/jeetsukumaran/vim-filebeagle.git
 [submodule "bundle/gitv"]
 	path = bundle/gitv
-	url = git://github.com/gregsexton/gitv.git
+	url = https://github.com/gregsexton/gitv.git
 [submodule "bundle/goyo"]
 	path = bundle/goyo
-	url = git://github.com/junegunn/goyo.vim
+	url = https://github.com/junegunn/goyo.vim
 [submodule "bundle/vim-codeschool"]
 	path = bundle/vim-codeschool
-	url = git://github.com/akmassey/vim-codeschool.git
+	url = https://github.com/akmassey/vim-codeschool.git
 [submodule "bundle/vim-lucius"]
 	path = bundle/vim-lucius
-	url = git://github.com/jonathanfilip/vim-lucius.git
+	url = https://github.com/jonathanfilip/vim-lucius.git
 [submodule "bundle/vim-fontsize"]
 	path = bundle/vim-fontsize
-	url = git://github.com/drmikehenry/vim-fontsize.git
+	url = https://github.com/drmikehenry/vim-fontsize.git
 [submodule "bundle/julia-vim"]
 	path = bundle/julia-vim
-	url = git://github.com/JuliaEditorSupport/julia-vim.git
+	url = https://github.com/JuliaEditorSupport/julia-vim.git
