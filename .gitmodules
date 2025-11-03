@@ -76,3 +76,6 @@
 [submodule "bundle/indentpython.vim"]
 	path = bundle/indentpython.vim
 	url = git@github.com:vim-scripts/indentpython.vim.git
+[submodule "bundle/claude.vim"]
+	path = bundle/claude.vim
+	url = git@github.com:pasky/claude.vim.git
