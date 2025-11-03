@@ -98,3 +98,10 @@ let g:ycm_filetype_whitelist = {}
 
 " Write via super user
 command! -nargs=0 Sudow w !sudo tee % > /dev/null
+
+" Configuring claude.vim
+" let g:claude_api_key = 'your_api_key_here'
+let g:claude_map_implement = "<Leader>ci"
+let g:claude_map_open_chat = "<Leader>cc"
+let g:claude_map_send_chat_message = "<C-]>"
+let g:claude_map_cancel_response = "<Leader>cx"
